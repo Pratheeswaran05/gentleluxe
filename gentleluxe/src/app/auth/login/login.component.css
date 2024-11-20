@@ -1,0 +1,79 @@
+.bg-container{
+    background-image: url('/assets/img/gen1.jpg'); /* Ensure the path is correct */
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensures the image covers the entire container */
+    height: 100vh; /* Full viewport height */
+    width: 100%; /* Full viewport width */
+    margin: 0;
+    padding: 0;
+
+    
+    display: flex;
+    justify-content: center;  /* Horizontal center */
+    align-items: center;      /* Vertical center */
+}
+.card{
+
+    width: 20%;
+    height: 46%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10%;
+    
+}
+input {
+    border: 2px solid transparent;
+    width: 15em;
+    height: 2.5em;
+    padding-left: 0.8em;
+    outline: none;
+    overflow: hidden;
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    transition: all 0.5s;
+  }
+  
+  input:hover,
+  input:focus {
+    border: 2px solid #4A9DEC;
+    box-shadow: 0px 0px 0px 7px rgb(74, 157, 236, 20%);
+    background-color: white;
+  }
+  button {
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 15px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+   }
+   
+   button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #212121;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+   }
+   
+   button:hover {
+    color: #e8e8e8;
+   }
+   
+   button:hover::before {
+    width: 100%;
+   }
+  
