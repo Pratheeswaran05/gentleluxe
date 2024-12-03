@@ -1,0 +1,75 @@
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e1f5fe; /* Light green background */
+    padding: 25px 20px;
+    border-radius: 7px; /* Rounded corners */
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2a2a2a; /* Dark text color */
+    margin-right: 20px;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 75px;
+    margin-left: 65%;
+    margin-top: -5%;
+
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #3d3d3d; /* Darker gray for text */
+  }
+  
+  .nav-links li a:hover {
+    text-decoration: underline;
+  }
+  
+  .navbar-right .profile-btn {
+    background-color: #ff4c4c; /* Red button background */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .navbar-right .profile-btn:hover {
+    background-color: #e84343; /* Slightly darker red on hover */
+  }
+  
+  .user-icon {
+    font-size: 16px;
+  }
+  .divider {
+    width: 2px;
+    height: 30px;
+    background-color: #3d3d3d;
+    margin: 0px 216px;
+    margin-top: -6%;
+}

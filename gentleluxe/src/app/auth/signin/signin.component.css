@@ -1,0 +1,85 @@
+.bg-container{
+    background-image: url('/assets/img/gen1.jpg'); /* Ensure the path is correct */
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensures the image covers the entire container */
+    height: 100vh; /* Full viewport height */
+    width: 100%; /* Full viewport width */
+    margin: 0;
+    padding: 0;
+        
+    display: flex;
+    justify-content: center; 
+    align-items: center;      
+
+    text-transform: uppercase;
+
+}
+.card{
+
+    width: 60%;
+    height: 50%;
+    border-radius: 10%;
+    background: #ffffffb3;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 2px 30px 108px 30px;
+}
+label{
+    display: block;
+      margin: 1rem 0 0.5rem;
+      font-size: 0.9rem;
+      text-align: left;
+      font-size: 140%;
+  }
+  input{
+    width: 165%;
+    padding: 0.75rem;
+    border: -1px solid #ccc;
+    border-radius: 7px;
+    font-size: 1rem;
+    outline: none;
+    }
+    button {
+
+          margin-top: 1.5rem;
+          width: 100%;
+          padding: 0.75rem;
+          background-color: #4b2ad3;
+          color: white;
+          font-size: 1rem;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          text-transform: uppercase;
+          margin-top: 31%;
+          width: 175%;
+}
+    
+       
+       
+       button:hover {
+        background-color: #3a21a5;
+    
+       }
+       
+       .cl1, .cl2 {
+        display: flex;
+        flex-direction: column; /* Align inputs vertically */
+        gap: 1rem; /* Add space between items */
+    }
+    
+    form {
+        display: flex;
+        flex-direction: row; /* Align .cl1 and .cl2 side by side */
+        justify-content: space-between;
+        gap: 4rem; /* Add space between columns */
+    }
+    h3{
+        margin-left: 33%;
+    font-size: 158%;
+
+    }
+.cl2{
+    margin-right: 20%;
+}
