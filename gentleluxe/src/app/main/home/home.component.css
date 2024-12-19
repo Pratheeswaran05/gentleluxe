@@ -1,0 +1,22 @@
+.card1{
+
+    width: 43%;
+    height: 79%;
+    border-radius: 10%;
+    background: #401414b3;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 2px 30px 108px 30px;
+}
+.card2{
+
+    width: 43%;
+    height: 79%;
+    border-radius: 10%;
+    background: #401414b3;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 2px 30px 108px 30px;
+}

@@ -2,3 +2,4 @@
 html, body {
     height: 100%; /* Ensures the body and HTML are at full height */
   }
+  @import 'ngx-toastr/toastr';
